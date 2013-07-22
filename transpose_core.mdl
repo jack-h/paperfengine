@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.54"
+    ComputedModelVersion    "1.55"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -26,9 +26,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "mdexter"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Thu Jul 18 23:40:11 2013"
-  RTWModifiedTimeStamp	  296058419
-  ModelVersionFormat	  "1.%<AutoIncrement:54>"
+  LastModifiedDate	  "Mon Jul 22 12:40:32 2013"
+  RTWModifiedTimeStamp	  296397607
+  ModelVersionFormat	  "1.%<AutoIncrement:55>"
   ConfigurationManager	  "None"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -1326,7 +1326,7 @@ Model {
       BlockType		      Terminator
       Name		      "Terminator4"
       SID		      "180"
-      Position		      [940, 240, 950, 250]
+      Position		      [940, 245, 950, 255]
       ShowName		      off
     }
     Block {
@@ -4084,7 +4084,7 @@ Model {
       Name		      "valid"
       SID		      "175"
       Ports		      [1, 1]
-      Position		      [815, 235, 875, 255]
+      Position		      [815, 240, 875, 260]
       LibraryVersion	      "1.2"
       SourceBlock	      "xbsIndex_r4/Gateway Out"
       SourceType	      "Xilinx Gateway Out Block"
