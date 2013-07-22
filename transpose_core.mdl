@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.55"
+    ComputedModelVersion    "1.56"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -26,9 +26,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "mdexter"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Jul 22 12:40:32 2013"
+  LastModifiedDate	  "Mon Jul 22 13:02:57 2013"
   RTWModifiedTimeStamp	  296397607
-  ModelVersionFormat	  "1.%<AutoIncrement:55>"
+  ModelVersionFormat	  "1.%<AutoIncrement:56>"
   ConfigurationManager	  "None"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -752,10 +752,10 @@ Model {
       RTWMemSecDataParameters "Inherit from model"
       GeneratePreprocessorConditionals off
       infoedit		      " System Generator"
-      xilinxfamily	      "virtex5"
-      part		      "xc5vsx95t"
+      xilinxfamily	      "virtex6"
+      part		      "xc6vsx475t"
       speed		      "-1"
-      package		      "ff1136"
+      package		      "ff1759"
       synthesis_tool	      "XST"
       clock_wrapper	      "Clock Enables"
       directory		      "./transpose_core"
@@ -4647,9 +4647,9 @@ MatData {
     "5R9F%C95]D;V-U;65N=       <')O:E]T>7!E                            <WEN=&A?9FEL90                          :6UP;%]F"
     ":6QE                                  X   !(    !@    @    $          4    (     0   !$    !         !     1    (%"
     "-Y<W1E;2!'96YE<F%T;W(         #@   #@    &    \"     0         !0    @    !    !P    $         $     <   !V:7)T97@"
-    "U  X   !     !@    @    $          4    (     0    D    !         !     )    >&,U=G-X.35T          X    P    !@   "
+    "V  X   !     !@    @    $          4    (     0    H    !         !     *    >&,V=G-X-#<U=         X    P    !@   "
     " @    $          4    (     0    (    !         !   @ M,0  #@   #@    &    \"     0         !0    @    !    !@    "
-    "$         $     8   !F9C$Q,S8   X    P    !@    @    $          4    (               !         !          #@   #  "
+    "$         $     8   !F9C$W-3D   X    P    !@    @    $          4    (               !         !          #@   #  "
     "   &    \"     0         !0    @    !     P    $         $  # %A35  .    ,     8    (    !          %    \"       "
     "         0         0          X   !     !@    @    $          4    (     0    T    !         !     -    0VQO8VL@16"
     "YA8FQE<P    X   !     !@    @    $          4    (     0   !     !         !     0    +B]T<F%N<W!O<V5?8V]R90X    P"
@@ -4759,9 +4759,9 @@ MatData {
     "YF:6<                          &-R96%T95]I;G1E<F9A8V5?9&]C=6UE;G0      '!R;VI?='EP90                           '-Y"
     ";G1H7V9I;&4                          &EM<&Q?9FEL90                                 .    2     8    (    !         "
     " %    \"     $    1     0         0    $0   \"!3>7-T96T@1V5N97)A=&]R          X    X    !@    @    $          4   "
-    " (     0    <    !         !     '    =FER=&5X-0 .    0     8    (    !          %    \"     $    )     0         "
-    "0    \"0   'AC-79S>#DU=          .    ,     8    (    !          %    \"     $    \"     0         0  ( +3$   X   "
-    " X    !@    @    $          4    (     0    8    !         !     &    9F8Q,3,V   .    ,     8    (    !          %"
+    " (     0    <    !         !     '    =FER=&5X-@ .    0     8    (    !          %    \"     $    *     0         "
+    "0    \"@   'AC-G9S>#0W-70        .    ,     8    (    !          %    \"     $    \"     0         0  ( +3$   X   "
+    " X    !@    @    $          4    (     0    8    !         !     &    9F8Q-S4Y   .    ,     8    (    !          %"
     "    \"                0         0          X    P    !@    @    $          4    (     0    ,    !         !   P!84"
     "U0 #@   #     &    \"     0         !0    @               $         $          .    0     8    (    !          %  "
     "  \"     $    -     0         0    #0   $-L;V-K($5N86)L97,    .    0     8    (    !          %    \"     $    0  "
