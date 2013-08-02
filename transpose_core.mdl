@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.56"
+    ComputedModelVersion    "1.58"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -26,9 +26,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "mdexter"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Jul 22 13:02:57 2013"
-  RTWModifiedTimeStamp	  296397607
-  ModelVersionFormat	  "1.%<AutoIncrement:56>"
+  LastModifiedDate	  "Fri Aug  2 11:34:45 2013"
+  RTWModifiedTimeStamp	  297343928
+  ModelVersionFormat	  "1.%<AutoIncrement:58>"
   ConfigurationManager	  "None"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -713,7 +713,7 @@ Model {
   }
   System {
     Name		    "transpose_core"
-    Location		    [489, 186, 1464, 746]
+    Location		    [484, 162, 1459, 722]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -727,7 +727,7 @@ Model {
     ShowPageBoundaries	    off
     ZoomFactor		    "100"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "216"
+    SIDHighWatermark	    "295"
     Block {
       BlockType		      Reference
       Name		      " System Generator"
@@ -1756,7 +1756,7 @@ Model {
 	  MaskHideContents	  off
 	  System {
 	    Name		    "reformat"
-	    Location		    [754, 324, 1131, 596]
+	    Location		    [305, 135, 1162, 740]
 	    Open		    off
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
@@ -1773,15 +1773,15 @@ Model {
 	      BlockType		      Inport
 	      Name		      "in"
 	      SID		      "54"
-	      Position		      [50, 33, 80, 47]
+	      Position		      [20, 283, 50, 297]
 	      IconDisplay	      "Port number"
 	    }
 	    Block {
 	      BlockType		      Reference
 	      Name		      "BitBasher1"
 	      SID		      "18"
-	      Ports		      [1, 1]
-	      Position		      [145, 29, 210, 51]
+	      Ports		      [1, 4]
+	      Position		      [130, 131, 195, 194]
 	      ShowName		      off
 	      LibraryVersion	      "1.2"
 	      SourceBlock	      "xbsIndex_r4/BitBasher"
@@ -1791,8 +1791,8 @@ Model {
 	      "\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-w"
 	      "rap; }\n</style></head><body style=\" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;\""
 	      ">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
-	      "-indent:0px;\"><span style=\" font-family:'MS Shell Dlg'; font-size:8pt;\">lohi={hilo[63:0],hilo[127:64]}<br />"
-	      "</span></p></body></html>"
+	      "-indent:0px;\"><span style=\" font-family:'MS Shell Dlg'; font-size:8pt;\">in_0_1={in[127:112]}<br />in_2_3={in"
+	      "[111:96]}<br />in_4_5={in[95:80]}<br />in_6_7={in[79:64]}<br /></span></p></body></html>"
 	      display_expr	      off
 	      sr_1		      "1"
 	      arith_type1	      "Unsigned"
@@ -1810,31 +1810,1458 @@ Model {
 	      has_advanced_control    "0"
 	      sggui_pos		      "15,25,368,329"
 	      block_type	      "bitbasher"
-	      sg_icon_stat	      "65,22,1,1,white,blue,0,1d172ec3,right,,[ ],[ ]"
-	      sg_mask_display	      "fprintf('','COMMENT: begin icon graphics');\npatch([0 65 65 0 0 ],[0 0 22 22 0 ],[0.77 0"
-	      ".82 0.91 ]);\nplot([0 65 65 0 0 ],[0 0 22 22 0 ]);\npatch([25.325 29.66 32.66 35.66 38.66 32.66 28.325 25.325 ]"
-	      ",[14.33 14.33 17.33 14.33 17.33 17.33 17.33 14.33 ],[1 1 1 ]);\npatch([28.325 32.66 29.66 25.325 28.325 ],[11.3"
-	      "3 11.33 14.33 14.33 11.33 ],[0.931 0.946 0.973 ]);\npatch([25.325 29.66 32.66 28.325 25.325 ],[8.33 8.33 11.33 "
-	      "11.33 8.33 ],[1 1 1 ]);\npatch([28.325 38.66 35.66 32.66 29.66 25.325 28.325 ],[5.33 5.33 8.33 5.33 8.33 8.33 5"
-	      ".33 ],[0.931 0.946 0.973 ]);\nfprintf('','COMMENT: end icon graphics');\nfprintf('','COMMENT: begin icon text')"
-	      ";\ncolor('black');port_label('input',1,'hilo');\ncolor('black');port_label('output',1,'lohi');\nfprintf('','COM"
-	      "MENT: end icon text');"
+	      sg_icon_stat	      "65,63,1,4,white,blue,0,6b8262e0,right,,[ ],[ ]"
+	      sg_mask_display	      "fprintf('','COMMENT: begin icon graphics');\npatch([0 65 65 0 0 ],[0 0 63 63 0 ],[0.77 0"
+	      ".82 0.91 ]);\nplot([0 65 65 0 0 ],[0 0 63 63 0 ]);\npatch([11.975 24.98 33.98 42.98 51.98 33.98 20.975 11.975 ]"
+	      ",[40.99 40.99 49.99 40.99 49.99 49.99 49.99 40.99 ],[1 1 1 ]);\npatch([20.975 33.98 24.98 11.975 20.975 ],[31.9"
+	      "9 31.99 40.99 40.99 31.99 ],[0.931 0.946 0.973 ]);\npatch([11.975 24.98 33.98 20.975 11.975 ],[22.99 22.99 31.9"
+	      "9 31.99 22.99 ],[1 1 1 ]);\npatch([20.975 51.98 42.98 33.98 24.98 11.975 20.975 ],[13.99 13.99 22.99 13.99 22.9"
+	      "9 22.99 13.99 ],[0.931 0.946 0.973 ]);\nfprintf('','COMMENT: end icon graphics');\nfprintf('','COMMENT: begin i"
+	      "con text');\ncolor('black');port_label('input',1,'in');\ncolor('black');port_label('output',1,'in_0_1');\ncolor"
+	      "('black');port_label('output',2,'in_2_3');\ncolor('black');port_label('output',3,'in_4_5');\ncolor('black');por"
+	      "t_label('output',4,'in_6_7');\nfprintf('','COMMENT: end icon text');"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "BitBasher10"
+	      SID		      "230"
+	      Ports		      [1, 4]
+	      Position		      [295, 486, 360, 549]
+	      ShowName		      off
+	      LibraryVersion	      "1.2"
+	      SourceBlock	      "xbsIndex_r4/BitBasher"
+	      SourceType	      "Xilinx BitBasher Block"
+	      infoedit		      "Allows extraction, concatenation and augmentation of bits"
+	      bitexpr		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd"
+	      "\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-w"
+	      "rap; }\n</style></head><body style=\" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;\""
+	      ">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
+	      "-indent:0px;\"><span style=\" font-family:'MS Shell Dlg'; font-size:8pt;\">re_a={in[15:12]}<br />im_a={in[11:8]"
+	      "}<br />re_b={in[7:4]}<br />im_b={in[3:0]}<br /></span></p></body></html>"
+	      display_expr	      off
+	      sr_1		      "1"
+	      arith_type1	      "Unsigned"
+	      bin_pt1		      "0"
+	      sr_2		      "2"
+	      arith_type2	      "Unsigned"
+	      bin_pt2		      "0"
+	      sr_3		      "3"
+	      arith_type3	      "Unsigned"
+	      bin_pt3		      "0"
+	      sr_4		      "4"
+	      arith_type4	      "Unsigned"
+	      bin_pt4		      "0"
+	      dbl_ovrd		      off
+	      has_advanced_control    "0"
+	      sggui_pos		      "15,25,368,329"
+	      block_type	      "bitbasher"
+	      sg_icon_stat	      "65,63,1,4,white,blue,0,df046d73,right,,[ ],[ ]"
+	      sg_mask_display	      "fprintf('','COMMENT: begin icon graphics');\npatch([0 65 65 0 0 ],[0 0 63 63 0 ],[0.77 0"
+	      ".82 0.91 ]);\nplot([0 65 65 0 0 ],[0 0 63 63 0 ]);\npatch([11.975 24.98 33.98 42.98 51.98 33.98 20.975 11.975 ]"
+	      ",[40.99 40.99 49.99 40.99 49.99 49.99 49.99 40.99 ],[1 1 1 ]);\npatch([20.975 33.98 24.98 11.975 20.975 ],[31.9"
+	      "9 31.99 40.99 40.99 31.99 ],[0.931 0.946 0.973 ]);\npatch([11.975 24.98 33.98 20.975 11.975 ],[22.99 22.99 31.9"
+	      "9 31.99 22.99 ],[1 1 1 ]);\npatch([20.975 51.98 42.98 33.98 24.98 11.975 20.975 ],[13.99 13.99 22.99 13.99 22.9"
+	      "9 22.99 13.99 ],[0.931 0.946 0.973 ]);\nfprintf('','COMMENT: end icon graphics');\nfprintf('','COMMENT: begin i"
+	      "con text');\ncolor('black');port_label('input',1,'in');\ncolor('black');port_label('output',1,'re_a');\ncolor('"
+	      "black');port_label('output',2,'im_a');\ncolor('black');port_label('output',3,'re_b');\ncolor('black');port_labe"
+	      "l('output',4,'im_b');\nfprintf('','COMMENT: end icon text');"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "BitBasher2"
+	      SID		      "220"
+	      Ports		      [1, 4]
+	      Position		      [130, 389, 195, 456]
+	      ShowName		      off
+	      LibraryVersion	      "1.2"
+	      SourceBlock	      "xbsIndex_r4/BitBasher"
+	      SourceType	      "Xilinx BitBasher Block"
+	      infoedit		      "Allows extraction, concatenation and augmentation of bits"
+	      bitexpr		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd"
+	      "\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-w"
+	      "rap; }\n</style></head><body style=\" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;\""
+	      ">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
+	      "-indent:0px;\"><span style=\" font-family:'MS Shell Dlg'; font-size:8pt;\">in_8_9={in[63:48]}<br />in_10_11={in"
+	      "[47:32]}<br />in12_13={in[31:16]}<br />in_14_15={in[15:0]}<br /></span></p></body></html>"
+	      display_expr	      off
+	      sr_1		      "1"
+	      arith_type1	      "Unsigned"
+	      bin_pt1		      "0"
+	      sr_2		      "2"
+	      arith_type2	      "Unsigned"
+	      bin_pt2		      "0"
+	      sr_3		      "3"
+	      arith_type3	      "Unsigned"
+	      bin_pt3		      "0"
+	      sr_4		      "4"
+	      arith_type4	      "Unsigned"
+	      bin_pt4		      "0"
+	      dbl_ovrd		      off
+	      has_advanced_control    "0"
+	      sggui_pos		      "15,25,368,329"
+	      block_type	      "bitbasher"
+	      sg_icon_stat	      "65,67,1,4,white,blue,0,3632f99c,right,,[ ],[ ]"
+	      sg_mask_display	      "fprintf('','COMMENT: begin icon graphics');\npatch([0 65 65 0 0 ],[0 0 67 67 0 ],[0.77 0"
+	      ".82 0.91 ]);\nplot([0 65 65 0 0 ],[0 0 67 67 0 ]);\npatch([11.975 24.98 33.98 42.98 51.98 33.98 20.975 11.975 ]"
+	      ",[42.99 42.99 51.99 42.99 51.99 51.99 51.99 42.99 ],[1 1 1 ]);\npatch([20.975 33.98 24.98 11.975 20.975 ],[33.9"
+	      "9 33.99 42.99 42.99 33.99 ],[0.931 0.946 0.973 ]);\npatch([11.975 24.98 33.98 20.975 11.975 ],[24.99 24.99 33.9"
+	      "9 33.99 24.99 ],[1 1 1 ]);\npatch([20.975 51.98 42.98 33.98 24.98 11.975 20.975 ],[15.99 15.99 24.99 15.99 24.9"
+	      "9 24.99 15.99 ],[0.931 0.946 0.973 ]);\nfprintf('','COMMENT: end icon graphics');\nfprintf('','COMMENT: begin i"
+	      "con text');\ncolor('black');port_label('input',1,'in');\ncolor('black');port_label('output',1,'in_8_9');\ncolor"
+	      "('black');port_label('output',2,'in_10_11');\ncolor('black');port_label('output',3,'in12_13');\ncolor('black');"
+	      "port_label('output',4,'in_14_15');\nfprintf('','COMMENT: end icon text');"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "BitBasher3"
+	      SID		      "223"
+	      Ports		      [1, 4]
+	      Position		      [295, 31, 360, 94]
+	      ShowName		      off
+	      LibraryVersion	      "1.2"
+	      SourceBlock	      "xbsIndex_r4/BitBasher"
+	      SourceType	      "Xilinx BitBasher Block"
+	      infoedit		      "Allows extraction, concatenation and augmentation of bits"
+	      bitexpr		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd"
+	      "\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-w"
+	      "rap; }\n</style></head><body style=\" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;\""
+	      ">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
+	      "-indent:0px;\"><span style=\" font-family:'MS Shell Dlg'; font-size:8pt;\">re_a={in[15:12]}<br />im_a={in[11:8]"
+	      "}<br />re_b={in[7:4]}<br />im_b={in[3:0]}<br /></span></p></body></html>"
+	      display_expr	      off
+	      sr_1		      "1"
+	      arith_type1	      "Unsigned"
+	      bin_pt1		      "0"
+	      sr_2		      "2"
+	      arith_type2	      "Unsigned"
+	      bin_pt2		      "0"
+	      sr_3		      "3"
+	      arith_type3	      "Unsigned"
+	      bin_pt3		      "0"
+	      sr_4		      "4"
+	      arith_type4	      "Unsigned"
+	      bin_pt4		      "0"
+	      dbl_ovrd		      off
+	      has_advanced_control    "0"
+	      sggui_pos		      "15,25,368,329"
+	      block_type	      "bitbasher"
+	      sg_icon_stat	      "65,63,1,4,white,blue,0,df046d73,right,,[ ],[ ]"
+	      sg_mask_display	      "fprintf('','COMMENT: begin icon graphics');\npatch([0 65 65 0 0 ],[0 0 63 63 0 ],[0.77 0"
+	      ".82 0.91 ]);\nplot([0 65 65 0 0 ],[0 0 63 63 0 ]);\npatch([11.975 24.98 33.98 42.98 51.98 33.98 20.975 11.975 ]"
+	      ",[40.99 40.99 49.99 40.99 49.99 49.99 49.99 40.99 ],[1 1 1 ]);\npatch([20.975 33.98 24.98 11.975 20.975 ],[31.9"
+	      "9 31.99 40.99 40.99 31.99 ],[0.931 0.946 0.973 ]);\npatch([11.975 24.98 33.98 20.975 11.975 ],[22.99 22.99 31.9"
+	      "9 31.99 22.99 ],[1 1 1 ]);\npatch([20.975 51.98 42.98 33.98 24.98 11.975 20.975 ],[13.99 13.99 22.99 13.99 22.9"
+	      "9 22.99 13.99 ],[0.931 0.946 0.973 ]);\nfprintf('','COMMENT: end icon graphics');\nfprintf('','COMMENT: begin i"
+	      "con text');\ncolor('black');port_label('input',1,'in');\ncolor('black');port_label('output',1,'re_a');\ncolor('"
+	      "black');port_label('output',2,'im_a');\ncolor('black');port_label('output',3,'re_b');\ncolor('black');port_labe"
+	      "l('output',4,'im_b');\nfprintf('','COMMENT: end icon text');"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "BitBasher4"
+	      SID		      "224"
+	      Ports		      [1, 4]
+	      Position		      [295, 96, 360, 159]
+	      ShowName		      off
+	      LibraryVersion	      "1.2"
+	      SourceBlock	      "xbsIndex_r4/BitBasher"
+	      SourceType	      "Xilinx BitBasher Block"
+	      infoedit		      "Allows extraction, concatenation and augmentation of bits"
+	      bitexpr		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd"
+	      "\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-w"
+	      "rap; }\n</style></head><body style=\" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;\""
+	      ">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
+	      "-indent:0px;\"><span style=\" font-family:'MS Shell Dlg'; font-size:8pt;\">re_a={in[15:12]}<br />im_a={in[11:8]"
+	      "}<br />re_b={in[7:4]}<br />im_b={in[3:0]}<br /></span></p></body></html>"
+	      display_expr	      off
+	      sr_1		      "1"
+	      arith_type1	      "Unsigned"
+	      bin_pt1		      "0"
+	      sr_2		      "2"
+	      arith_type2	      "Unsigned"
+	      bin_pt2		      "0"
+	      sr_3		      "3"
+	      arith_type3	      "Unsigned"
+	      bin_pt3		      "0"
+	      sr_4		      "4"
+	      arith_type4	      "Unsigned"
+	      bin_pt4		      "0"
+	      dbl_ovrd		      off
+	      has_advanced_control    "0"
+	      sggui_pos		      "15,25,368,329"
+	      block_type	      "bitbasher"
+	      sg_icon_stat	      "65,63,1,4,white,blue,0,df046d73,right,,[ ],[ ]"
+	      sg_mask_display	      "fprintf('','COMMENT: begin icon graphics');\npatch([0 65 65 0 0 ],[0 0 63 63 0 ],[0.77 0"
+	      ".82 0.91 ]);\nplot([0 65 65 0 0 ],[0 0 63 63 0 ]);\npatch([11.975 24.98 33.98 42.98 51.98 33.98 20.975 11.975 ]"
+	      ",[40.99 40.99 49.99 40.99 49.99 49.99 49.99 40.99 ],[1 1 1 ]);\npatch([20.975 33.98 24.98 11.975 20.975 ],[31.9"
+	      "9 31.99 40.99 40.99 31.99 ],[0.931 0.946 0.973 ]);\npatch([11.975 24.98 33.98 20.975 11.975 ],[22.99 22.99 31.9"
+	      "9 31.99 22.99 ],[1 1 1 ]);\npatch([20.975 51.98 42.98 33.98 24.98 11.975 20.975 ],[13.99 13.99 22.99 13.99 22.9"
+	      "9 22.99 13.99 ],[0.931 0.946 0.973 ]);\nfprintf('','COMMENT: end icon graphics');\nfprintf('','COMMENT: begin i"
+	      "con text');\ncolor('black');port_label('input',1,'in');\ncolor('black');port_label('output',1,'re_a');\ncolor('"
+	      "black');port_label('output',2,'im_a');\ncolor('black');port_label('output',3,'re_b');\ncolor('black');port_labe"
+	      "l('output',4,'im_b');\nfprintf('','COMMENT: end icon text');"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "BitBasher5"
+	      SID		      "225"
+	      Ports		      [1, 4]
+	      Position		      [295, 161, 360, 224]
+	      ShowName		      off
+	      LibraryVersion	      "1.2"
+	      SourceBlock	      "xbsIndex_r4/BitBasher"
+	      SourceType	      "Xilinx BitBasher Block"
+	      infoedit		      "Allows extraction, concatenation and augmentation of bits"
+	      bitexpr		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd"
+	      "\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-w"
+	      "rap; }\n</style></head><body style=\" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;\""
+	      ">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
+	      "-indent:0px;\"><span style=\" font-family:'MS Shell Dlg'; font-size:8pt;\">re_a={in[15:12]}<br />im_a={in[11:8]"
+	      "}<br />re_b={in[7:4]}<br />im_b={in[3:0]}<br /></span></p></body></html>"
+	      display_expr	      off
+	      sr_1		      "1"
+	      arith_type1	      "Unsigned"
+	      bin_pt1		      "0"
+	      sr_2		      "2"
+	      arith_type2	      "Unsigned"
+	      bin_pt2		      "0"
+	      sr_3		      "3"
+	      arith_type3	      "Unsigned"
+	      bin_pt3		      "0"
+	      sr_4		      "4"
+	      arith_type4	      "Unsigned"
+	      bin_pt4		      "0"
+	      dbl_ovrd		      off
+	      has_advanced_control    "0"
+	      sggui_pos		      "15,25,368,329"
+	      block_type	      "bitbasher"
+	      sg_icon_stat	      "65,63,1,4,white,blue,0,df046d73,right,,[ ],[ ]"
+	      sg_mask_display	      "fprintf('','COMMENT: begin icon graphics');\npatch([0 65 65 0 0 ],[0 0 63 63 0 ],[0.77 0"
+	      ".82 0.91 ]);\nplot([0 65 65 0 0 ],[0 0 63 63 0 ]);\npatch([11.975 24.98 33.98 42.98 51.98 33.98 20.975 11.975 ]"
+	      ",[40.99 40.99 49.99 40.99 49.99 49.99 49.99 40.99 ],[1 1 1 ]);\npatch([20.975 33.98 24.98 11.975 20.975 ],[31.9"
+	      "9 31.99 40.99 40.99 31.99 ],[0.931 0.946 0.973 ]);\npatch([11.975 24.98 33.98 20.975 11.975 ],[22.99 22.99 31.9"
+	      "9 31.99 22.99 ],[1 1 1 ]);\npatch([20.975 51.98 42.98 33.98 24.98 11.975 20.975 ],[13.99 13.99 22.99 13.99 22.9"
+	      "9 22.99 13.99 ],[0.931 0.946 0.973 ]);\nfprintf('','COMMENT: end icon graphics');\nfprintf('','COMMENT: begin i"
+	      "con text');\ncolor('black');port_label('input',1,'in');\ncolor('black');port_label('output',1,'re_a');\ncolor('"
+	      "black');port_label('output',2,'im_a');\ncolor('black');port_label('output',3,'re_b');\ncolor('black');port_labe"
+	      "l('output',4,'im_b');\nfprintf('','COMMENT: end icon text');"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "BitBasher6"
+	      SID		      "226"
+	      Ports		      [1, 4]
+	      Position		      [295, 226, 360, 289]
+	      ShowName		      off
+	      LibraryVersion	      "1.2"
+	      SourceBlock	      "xbsIndex_r4/BitBasher"
+	      SourceType	      "Xilinx BitBasher Block"
+	      infoedit		      "Allows extraction, concatenation and augmentation of bits"
+	      bitexpr		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd"
+	      "\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-w"
+	      "rap; }\n</style></head><body style=\" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;\""
+	      ">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
+	      "-indent:0px;\"><span style=\" font-family:'MS Shell Dlg'; font-size:8pt;\">re_a={in[15:12]}<br />im_a={in[11:8]"
+	      "}<br />re_b={in[7:4]}<br />im_b={in[3:0]}<br /></span></p></body></html>"
+	      display_expr	      off
+	      sr_1		      "1"
+	      arith_type1	      "Unsigned"
+	      bin_pt1		      "0"
+	      sr_2		      "2"
+	      arith_type2	      "Unsigned"
+	      bin_pt2		      "0"
+	      sr_3		      "3"
+	      arith_type3	      "Unsigned"
+	      bin_pt3		      "0"
+	      sr_4		      "4"
+	      arith_type4	      "Unsigned"
+	      bin_pt4		      "0"
+	      dbl_ovrd		      off
+	      has_advanced_control    "0"
+	      sggui_pos		      "15,25,368,329"
+	      block_type	      "bitbasher"
+	      sg_icon_stat	      "65,63,1,4,white,blue,0,df046d73,right,,[ ],[ ]"
+	      sg_mask_display	      "fprintf('','COMMENT: begin icon graphics');\npatch([0 65 65 0 0 ],[0 0 63 63 0 ],[0.77 0"
+	      ".82 0.91 ]);\nplot([0 65 65 0 0 ],[0 0 63 63 0 ]);\npatch([11.975 24.98 33.98 42.98 51.98 33.98 20.975 11.975 ]"
+	      ",[40.99 40.99 49.99 40.99 49.99 49.99 49.99 40.99 ],[1 1 1 ]);\npatch([20.975 33.98 24.98 11.975 20.975 ],[31.9"
+	      "9 31.99 40.99 40.99 31.99 ],[0.931 0.946 0.973 ]);\npatch([11.975 24.98 33.98 20.975 11.975 ],[22.99 22.99 31.9"
+	      "9 31.99 22.99 ],[1 1 1 ]);\npatch([20.975 51.98 42.98 33.98 24.98 11.975 20.975 ],[13.99 13.99 22.99 13.99 22.9"
+	      "9 22.99 13.99 ],[0.931 0.946 0.973 ]);\nfprintf('','COMMENT: end icon graphics');\nfprintf('','COMMENT: begin i"
+	      "con text');\ncolor('black');port_label('input',1,'in');\ncolor('black');port_label('output',1,'re_a');\ncolor('"
+	      "black');port_label('output',2,'im_a');\ncolor('black');port_label('output',3,'re_b');\ncolor('black');port_labe"
+	      "l('output',4,'im_b');\nfprintf('','COMMENT: end icon text');"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "BitBasher7"
+	      SID		      "227"
+	      Ports		      [1, 4]
+	      Position		      [295, 291, 360, 354]
+	      ShowName		      off
+	      LibraryVersion	      "1.2"
+	      SourceBlock	      "xbsIndex_r4/BitBasher"
+	      SourceType	      "Xilinx BitBasher Block"
+	      infoedit		      "Allows extraction, concatenation and augmentation of bits"
+	      bitexpr		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd"
+	      "\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-w"
+	      "rap; }\n</style></head><body style=\" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;\""
+	      ">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
+	      "-indent:0px;\"><span style=\" font-family:'MS Shell Dlg'; font-size:8pt;\">re_a={in[15:12]}<br />im_a={in[11:8]"
+	      "}<br />re_b={in[7:4]}<br />im_b={in[3:0]}<br /></span></p></body></html>"
+	      display_expr	      off
+	      sr_1		      "1"
+	      arith_type1	      "Unsigned"
+	      bin_pt1		      "0"
+	      sr_2		      "2"
+	      arith_type2	      "Unsigned"
+	      bin_pt2		      "0"
+	      sr_3		      "3"
+	      arith_type3	      "Unsigned"
+	      bin_pt3		      "0"
+	      sr_4		      "4"
+	      arith_type4	      "Unsigned"
+	      bin_pt4		      "0"
+	      dbl_ovrd		      off
+	      has_advanced_control    "0"
+	      sggui_pos		      "15,25,368,329"
+	      block_type	      "bitbasher"
+	      sg_icon_stat	      "65,63,1,4,white,blue,0,df046d73,right,,[ ],[ ]"
+	      sg_mask_display	      "fprintf('','COMMENT: begin icon graphics');\npatch([0 65 65 0 0 ],[0 0 63 63 0 ],[0.77 0"
+	      ".82 0.91 ]);\nplot([0 65 65 0 0 ],[0 0 63 63 0 ]);\npatch([11.975 24.98 33.98 42.98 51.98 33.98 20.975 11.975 ]"
+	      ",[40.99 40.99 49.99 40.99 49.99 49.99 49.99 40.99 ],[1 1 1 ]);\npatch([20.975 33.98 24.98 11.975 20.975 ],[31.9"
+	      "9 31.99 40.99 40.99 31.99 ],[0.931 0.946 0.973 ]);\npatch([11.975 24.98 33.98 20.975 11.975 ],[22.99 22.99 31.9"
+	      "9 31.99 22.99 ],[1 1 1 ]);\npatch([20.975 51.98 42.98 33.98 24.98 11.975 20.975 ],[13.99 13.99 22.99 13.99 22.9"
+	      "9 22.99 13.99 ],[0.931 0.946 0.973 ]);\nfprintf('','COMMENT: end icon graphics');\nfprintf('','COMMENT: begin i"
+	      "con text');\ncolor('black');port_label('input',1,'in');\ncolor('black');port_label('output',1,'re_a');\ncolor('"
+	      "black');port_label('output',2,'im_a');\ncolor('black');port_label('output',3,'re_b');\ncolor('black');port_labe"
+	      "l('output',4,'im_b');\nfprintf('','COMMENT: end icon text');"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "BitBasher8"
+	      SID		      "228"
+	      Ports		      [1, 4]
+	      Position		      [295, 356, 360, 419]
+	      ShowName		      off
+	      LibraryVersion	      "1.2"
+	      SourceBlock	      "xbsIndex_r4/BitBasher"
+	      SourceType	      "Xilinx BitBasher Block"
+	      infoedit		      "Allows extraction, concatenation and augmentation of bits"
+	      bitexpr		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd"
+	      "\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-w"
+	      "rap; }\n</style></head><body style=\" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;\""
+	      ">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
+	      "-indent:0px;\"><span style=\" font-family:'MS Shell Dlg'; font-size:8pt;\">re_a={in[15:12]}<br />im_a={in[11:8]"
+	      "}<br />re_b={in[7:4]}<br />im_b={in[3:0]}<br /></span></p></body></html>"
+	      display_expr	      off
+	      sr_1		      "1"
+	      arith_type1	      "Unsigned"
+	      bin_pt1		      "0"
+	      sr_2		      "2"
+	      arith_type2	      "Unsigned"
+	      bin_pt2		      "0"
+	      sr_3		      "3"
+	      arith_type3	      "Unsigned"
+	      bin_pt3		      "0"
+	      sr_4		      "4"
+	      arith_type4	      "Unsigned"
+	      bin_pt4		      "0"
+	      dbl_ovrd		      off
+	      has_advanced_control    "0"
+	      sggui_pos		      "15,25,368,329"
+	      block_type	      "bitbasher"
+	      sg_icon_stat	      "65,63,1,4,white,blue,0,df046d73,right,,[ ],[ ]"
+	      sg_mask_display	      "fprintf('','COMMENT: begin icon graphics');\npatch([0 65 65 0 0 ],[0 0 63 63 0 ],[0.77 0"
+	      ".82 0.91 ]);\nplot([0 65 65 0 0 ],[0 0 63 63 0 ]);\npatch([11.975 24.98 33.98 42.98 51.98 33.98 20.975 11.975 ]"
+	      ",[40.99 40.99 49.99 40.99 49.99 49.99 49.99 40.99 ],[1 1 1 ]);\npatch([20.975 33.98 24.98 11.975 20.975 ],[31.9"
+	      "9 31.99 40.99 40.99 31.99 ],[0.931 0.946 0.973 ]);\npatch([11.975 24.98 33.98 20.975 11.975 ],[22.99 22.99 31.9"
+	      "9 31.99 22.99 ],[1 1 1 ]);\npatch([20.975 51.98 42.98 33.98 24.98 11.975 20.975 ],[13.99 13.99 22.99 13.99 22.9"
+	      "9 22.99 13.99 ],[0.931 0.946 0.973 ]);\nfprintf('','COMMENT: end icon graphics');\nfprintf('','COMMENT: begin i"
+	      "con text');\ncolor('black');port_label('input',1,'in');\ncolor('black');port_label('output',1,'re_a');\ncolor('"
+	      "black');port_label('output',2,'im_a');\ncolor('black');port_label('output',3,'re_b');\ncolor('black');port_labe"
+	      "l('output',4,'im_b');\nfprintf('','COMMENT: end icon text');"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "BitBasher9"
+	      SID		      "229"
+	      Ports		      [1, 4]
+	      Position		      [295, 421, 360, 484]
+	      ShowName		      off
+	      LibraryVersion	      "1.2"
+	      SourceBlock	      "xbsIndex_r4/BitBasher"
+	      SourceType	      "Xilinx BitBasher Block"
+	      infoedit		      "Allows extraction, concatenation and augmentation of bits"
+	      bitexpr		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd"
+	      "\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-w"
+	      "rap; }\n</style></head><body style=\" font-family:'Sans'; font-size:10pt; font-weight:400; font-style:normal;\""
+	      ">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
+	      "-indent:0px;\"><span style=\" font-family:'MS Shell Dlg'; font-size:8pt;\">re_a={in[15:12]}<br />im_a={in[11:8]"
+	      "}<br />re_b={in[7:4]}<br />im_b={in[3:0]}<br /></span></p></body></html>"
+	      display_expr	      off
+	      sr_1		      "1"
+	      arith_type1	      "Unsigned"
+	      bin_pt1		      "0"
+	      sr_2		      "2"
+	      arith_type2	      "Unsigned"
+	      bin_pt2		      "0"
+	      sr_3		      "3"
+	      arith_type3	      "Unsigned"
+	      bin_pt3		      "0"
+	      sr_4		      "4"
+	      arith_type4	      "Unsigned"
+	      bin_pt4		      "0"
+	      dbl_ovrd		      off
+	      has_advanced_control    "0"
+	      sggui_pos		      "15,25,368,329"
+	      block_type	      "bitbasher"
+	      sg_icon_stat	      "65,63,1,4,white,blue,0,df046d73,right,,[ ],[ ]"
+	      sg_mask_display	      "fprintf('','COMMENT: begin icon graphics');\npatch([0 65 65 0 0 ],[0 0 63 63 0 ],[0.77 0"
+	      ".82 0.91 ]);\nplot([0 65 65 0 0 ],[0 0 63 63 0 ]);\npatch([11.975 24.98 33.98 42.98 51.98 33.98 20.975 11.975 ]"
+	      ",[40.99 40.99 49.99 40.99 49.99 49.99 49.99 40.99 ],[1 1 1 ]);\npatch([20.975 33.98 24.98 11.975 20.975 ],[31.9"
+	      "9 31.99 40.99 40.99 31.99 ],[0.931 0.946 0.973 ]);\npatch([11.975 24.98 33.98 20.975 11.975 ],[22.99 22.99 31.9"
+	      "9 31.99 22.99 ],[1 1 1 ]);\npatch([20.975 51.98 42.98 33.98 24.98 11.975 20.975 ],[13.99 13.99 22.99 13.99 22.9"
+	      "9 22.99 13.99 ],[0.931 0.946 0.973 ]);\nfprintf('','COMMENT: end icon graphics');\nfprintf('','COMMENT: begin i"
+	      "con text');\ncolor('black');port_label('input',1,'in');\ncolor('black');port_label('output',1,'re_a');\ncolor('"
+	      "black');port_label('output',2,'im_a');\ncolor('black');port_label('output',3,'re_b');\ncolor('black');port_labe"
+	      "l('output',4,'im_b');\nfprintf('','COMMENT: end icon text');"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Concat"
+	      SID		      "295"
+	      Ports		      [32, 1]
+	      Position		      [650, 46, 705, 529]
+	      ShowName		      off
+	      LibraryVersion	      "1.2"
+	      SourceBlock	      "xbsIndex_r4/Concat"
+	      SourceType	      "Xilinx Bus Concatenator Block"
+	      infoedit		      "Concatenates two or more inputs.  Output will be cast to an unsigned value with the binary poi"
+	      "nt at zero."
+	      num_inputs	      "32"
+	      dbl_ovrd		      off
+	      has_advanced_control    "0"
+	      sggui_pos		      "-1,-1,-1,-1"
+	      block_type	      "concat"
+	      sg_icon_stat	      "55,483,32,1,white,blue,0,8adf9d9b,right,,[ ],[ ]"
+	      sg_mask_display	      "fprintf('','COMMENT: begin icon graphics');\npatch([0 55 55 0 0 ],[0 0 483 483 0 ],[0.77"
+	      " 0.82 0.91 ]);\nplot([0 55 55 0 0 ],[0 0 483 483 0 ]);\npatch([11.425 21.54 28.54 35.54 42.54 28.54 18.425 11.4"
+	      "25 ],[248.77 248.77 255.77 248.77 255.77 255.77 255.77 248.77 ],[1 1 1 ]);\npatch([18.425 28.54 21.54 11.425 18"
+	      ".425 ],[241.77 241.77 248.77 248.77 241.77 ],[0.931 0.946 0.973 ]);\npatch([11.425 21.54 28.54 18.425 11.425 ],"
+	      "[234.77 234.77 241.77 241.77 234.77 ],[1 1 1 ]);\npatch([18.425 42.54 35.54 28.54 21.54 11.425 18.425 ],[227.77"
+	      " 227.77 234.77 227.77 234.77 234.77 227.77 ],[0.931 0.946 0.973 ]);\nfprintf('','COMMENT: end icon graphics');\n"
+	      "fprintf('','COMMENT: begin icon text');\ncolor('black');port_label('input',1,'hi');\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+	      "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncolor('black');port_label('input',32,'lo');\n\ncolor('black');disp('\\fontsiz"
+	      "e{20}\\}','texmode','on');\nfprintf('','COMMENT: end icon text');"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From1"
+	      SID		      "264"
+	      Position		      [525, 289, 585, 301]
+	      ShowName		      off
+	      GotoTag		      "re00"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From10"
+	      SID		      "272"
+	      Position		      [525, 319, 585, 331]
+	      ShowName		      off
+	      GotoTag		      "im00"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From11"
+	      SID		      "273"
+	      Position		      [525, 349, 585, 361]
+	      ShowName		      off
+	      GotoTag		      "re01"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From12"
+	      SID		      "274"
+	      Position		      [525, 379, 585, 391]
+	      ShowName		      off
+	      GotoTag		      "im01"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From13"
+	      SID		      "275"
+	      Position		      [525, 409, 585, 421]
+	      ShowName		      off
+	      GotoTag		      "re02"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From14"
+	      SID		      "276"
+	      Position		      [525, 439, 585, 451]
+	      ShowName		      off
+	      GotoTag		      "im02"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From15"
+	      SID		      "277"
+	      Position		      [525, 469, 585, 481]
+	      ShowName		      off
+	      GotoTag		      "re03"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From16"
+	      SID		      "278"
+	      Position		      [525, 499, 585, 511]
+	      ShowName		      off
+	      GotoTag		      "im03"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From17"
+	      SID		      "279"
+	      Position		      [525, 49, 585, 61]
+	      ShowName		      off
+	      GotoTag		      "re04"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From18"
+	      SID		      "280"
+	      Position		      [525, 79, 585, 91]
+	      ShowName		      off
+	      GotoTag		      "im04"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From19"
+	      SID		      "281"
+	      Position		      [525, 109, 585, 121]
+	      ShowName		      off
+	      GotoTag		      "re05"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From2"
+	      SID		      "222"
+	      Position		      [525, 139, 585, 151]
+	      ShowName		      off
+	      GotoTag		      "im05"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From20"
+	      SID		      "282"
+	      Position		      [525, 169, 585, 181]
+	      ShowName		      off
+	      GotoTag		      "re06"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From21"
+	      SID		      "283"
+	      Position		      [525, 199, 585, 211]
+	      ShowName		      off
+	      GotoTag		      "im06"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From22"
+	      SID		      "284"
+	      Position		      [525, 229, 585, 241]
+	      ShowName		      off
+	      GotoTag		      "re07"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From23"
+	      SID		      "285"
+	      Position		      [525, 259, 585, 271]
+	      ShowName		      off
+	      GotoTag		      "im07"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From24"
+	      SID		      "286"
+	      Position		      [525, 304, 585, 316]
+	      ShowName		      off
+	      GotoTag		      "re08"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From25"
+	      SID		      "287"
+	      Position		      [525, 334, 585, 346]
+	      ShowName		      off
+	      GotoTag		      "im08"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From26"
+	      SID		      "288"
+	      Position		      [525, 364, 585, 376]
+	      ShowName		      off
+	      GotoTag		      "re09"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From27"
+	      SID		      "289"
+	      Position		      [525, 394, 585, 406]
+	      ShowName		      off
+	      GotoTag		      "im09"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From28"
+	      SID		      "290"
+	      Position		      [525, 424, 585, 436]
+	      ShowName		      off
+	      GotoTag		      "re10"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From29"
+	      SID		      "291"
+	      Position		      [525, 454, 585, 466]
+	      ShowName		      off
+	      GotoTag		      "im10"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From3"
+	      SID		      "265"
+	      Position		      [525, 484, 585, 496]
+	      ShowName		      off
+	      GotoTag		      "re11"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From30"
+	      SID		      "292"
+	      Position		      [525, 514, 585, 526]
+	      ShowName		      off
+	      GotoTag		      "im11"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From31"
+	      SID		      "293"
+	      Position		      [525, 64, 585, 76]
+	      ShowName		      off
+	      GotoTag		      "re12"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From32"
+	      SID		      "294"
+	      Position		      [525, 94, 585, 106]
+	      ShowName		      off
+	      GotoTag		      "im12"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From4"
+	      SID		      "266"
+	      Position		      [525, 124, 585, 136]
+	      ShowName		      off
+	      GotoTag		      "re13"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From5"
+	      SID		      "267"
+	      Position		      [525, 154, 585, 166]
+	      ShowName		      off
+	      GotoTag		      "im13"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From6"
+	      SID		      "268"
+	      Position		      [525, 184, 585, 196]
+	      ShowName		      off
+	      GotoTag		      "re14"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From7"
+	      SID		      "269"
+	      Position		      [525, 214, 585, 226]
+	      ShowName		      off
+	      GotoTag		      "im14"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From8"
+	      SID		      "270"
+	      Position		      [525, 244, 585, 256]
+	      ShowName		      off
+	      GotoTag		      "re15"
+	    }
+	    Block {
+	      BlockType		      From
+	      Name		      "From9"
+	      SID		      "271"
+	      Position		      [525, 274, 585, 286]
+	      ShowName		      off
+	      GotoTag		      "im15"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto1"
+	      SID		      "221"
+	      Position		      [420, 34, 485, 46]
+	      ShowName		      off
+	      GotoTag		      "re00"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto10"
+	      SID		      "241"
+	      Position		      [420, 49, 485, 61]
+	      ShowName		      off
+	      GotoTag		      "im00"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto11"
+	      SID		      "242"
+	      Position		      [420, 64, 485, 76]
+	      ShowName		      off
+	      GotoTag		      "re01"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto12"
+	      SID		      "243"
+	      Position		      [420, 79, 485, 91]
+	      ShowName		      off
+	      GotoTag		      "im01"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto13"
+	      SID		      "244"
+	      Position		      [420, 99, 485, 111]
+	      ShowName		      off
+	      GotoTag		      "re02"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto14"
+	      SID		      "245"
+	      Position		      [420, 114, 485, 126]
+	      ShowName		      off
+	      GotoTag		      "im02"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto15"
+	      SID		      "246"
+	      Position		      [420, 129, 485, 141]
+	      ShowName		      off
+	      GotoTag		      "re03"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto16"
+	      SID		      "247"
+	      Position		      [420, 144, 485, 156]
+	      ShowName		      off
+	      GotoTag		      "im03"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto17"
+	      SID		      "248"
+	      Position		      [420, 164, 485, 176]
+	      ShowName		      off
+	      GotoTag		      "re04"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto18"
+	      SID		      "249"
+	      Position		      [420, 179, 485, 191]
+	      ShowName		      off
+	      GotoTag		      "im04"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto19"
+	      SID		      "250"
+	      Position		      [420, 194, 485, 206]
+	      ShowName		      off
+	      GotoTag		      "re05"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto2"
+	      SID		      "231"
+	      Position		      [420, 209, 485, 221]
+	      ShowName		      off
+	      GotoTag		      "im05"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto20"
+	      SID		      "251"
+	      Position		      [420, 229, 485, 241]
+	      ShowName		      off
+	      GotoTag		      "re06"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto21"
+	      SID		      "252"
+	      Position		      [420, 244, 485, 256]
+	      ShowName		      off
+	      GotoTag		      "im06"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto22"
+	      SID		      "253"
+	      Position		      [420, 259, 485, 271]
+	      ShowName		      off
+	      GotoTag		      "re07"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto23"
+	      SID		      "254"
+	      Position		      [420, 274, 485, 286]
+	      ShowName		      off
+	      GotoTag		      "im07"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto24"
+	      SID		      "255"
+	      Position		      [420, 294, 485, 306]
+	      ShowName		      off
+	      GotoTag		      "re08"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto25"
+	      SID		      "256"
+	      Position		      [420, 309, 485, 321]
+	      ShowName		      off
+	      GotoTag		      "im08"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto26"
+	      SID		      "257"
+	      Position		      [420, 324, 485, 336]
+	      ShowName		      off
+	      GotoTag		      "re09"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto27"
+	      SID		      "258"
+	      Position		      [420, 339, 485, 351]
+	      ShowName		      off
+	      GotoTag		      "im09"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto28"
+	      SID		      "259"
+	      Position		      [420, 359, 485, 371]
+	      ShowName		      off
+	      GotoTag		      "re10"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto29"
+	      SID		      "260"
+	      Position		      [420, 374, 485, 386]
+	      ShowName		      off
+	      GotoTag		      "im10"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto3"
+	      SID		      "232"
+	      Position		      [420, 389, 485, 401]
+	      ShowName		      off
+	      GotoTag		      "re11"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto30"
+	      SID		      "261"
+	      Position		      [420, 404, 485, 416]
+	      ShowName		      off
+	      GotoTag		      "im11"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto31"
+	      SID		      "262"
+	      Position		      [420, 424, 485, 436]
+	      ShowName		      off
+	      GotoTag		      "re12"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto32"
+	      SID		      "263"
+	      Position		      [420, 439, 485, 451]
+	      ShowName		      off
+	      GotoTag		      "im12"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto4"
+	      SID		      "233"
+	      Position		      [420, 454, 485, 466]
+	      ShowName		      off
+	      GotoTag		      "re13"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto5"
+	      SID		      "236"
+	      Position		      [420, 469, 485, 481]
+	      ShowName		      off
+	      GotoTag		      "im13"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto6"
+	      SID		      "237"
+	      Position		      [420, 489, 485, 501]
+	      ShowName		      off
+	      GotoTag		      "re14"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto7"
+	      SID		      "238"
+	      Position		      [420, 504, 485, 516]
+	      ShowName		      off
+	      GotoTag		      "im14"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto8"
+	      SID		      "239"
+	      Position		      [420, 519, 485, 531]
+	      ShowName		      off
+	      GotoTag		      "re15"
+	      TagVisibility	      "local"
+	    }
+	    Block {
+	      BlockType		      Goto
+	      Name		      "Goto9"
+	      SID		      "240"
+	      Position		      [420, 534, 485, 546]
+	      ShowName		      off
+	      GotoTag		      "im15"
+	      TagVisibility	      "local"
 	    }
 	    Block {
 	      BlockType		      Outport
 	      Name		      "out"
 	      SID		      "55"
-	      Position		      [280, 33, 310, 47]
+	      Position		      [780, 283, 810, 297]
 	      IconDisplay	      "Port number"
 	    }
 	    Line {
 	      SrcBlock		      "in"
 	      SrcPort		      1
-	      DstBlock		      "BitBasher1"
+	      Points		      [55, 0]
+	      Branch {
+		Points			[0, -130]
+		DstBlock		"BitBasher1"
+		DstPort			1
+	      }
+	      Branch {
+		Points			[0, 135]
+		DstBlock		"BitBasher2"
+		DstPort			1
+	      }
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher1"
+	      SrcPort		      1
+	      Points		      [50, 0; 0, -75]
+	      DstBlock		      "BitBasher3"
 	      DstPort		      1
 	    }
 	    Line {
 	      SrcBlock		      "BitBasher1"
+	      SrcPort		      2
+	      Points		      [70, 0; 0, -25]
+	      DstBlock		      "BitBasher4"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher1"
+	      SrcPort		      3
+	      Points		      [70, 0; 0, 25]
+	      DstBlock		      "BitBasher5"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher1"
+	      SrcPort		      4
+	      Points		      [50, 0; 0, 75]
+	      DstBlock		      "BitBasher6"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher2"
+	      SrcPort		      1
+	      Points		      [50, 0; 0, -75]
+	      DstBlock		      "BitBasher7"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher2"
+	      SrcPort		      2
+	      Points		      [70, 0; 0, -25]
+	      DstBlock		      "BitBasher8"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher2"
+	      SrcPort		      3
+	      Points		      [70, 0; 0, 25]
+	      DstBlock		      "BitBasher9"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher2"
+	      SrcPort		      4
+	      Points		      [50, 0; 0, 75]
+	      DstBlock		      "BitBasher10"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher3"
+	      SrcPort		      1
+	      DstBlock		      "Goto1"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher3"
+	      SrcPort		      2
+	      DstBlock		      "Goto10"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher3"
+	      SrcPort		      3
+	      DstBlock		      "Goto11"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher3"
+	      SrcPort		      4
+	      DstBlock		      "Goto12"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher4"
+	      SrcPort		      1
+	      DstBlock		      "Goto13"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher4"
+	      SrcPort		      2
+	      DstBlock		      "Goto14"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher4"
+	      SrcPort		      3
+	      DstBlock		      "Goto15"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher4"
+	      SrcPort		      4
+	      DstBlock		      "Goto16"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher5"
+	      SrcPort		      1
+	      DstBlock		      "Goto17"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher5"
+	      SrcPort		      2
+	      DstBlock		      "Goto18"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher5"
+	      SrcPort		      3
+	      DstBlock		      "Goto19"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher5"
+	      SrcPort		      4
+	      DstBlock		      "Goto2"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher6"
+	      SrcPort		      1
+	      DstBlock		      "Goto20"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher6"
+	      SrcPort		      2
+	      DstBlock		      "Goto21"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher6"
+	      SrcPort		      3
+	      DstBlock		      "Goto22"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher6"
+	      SrcPort		      4
+	      DstBlock		      "Goto23"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher7"
+	      SrcPort		      1
+	      DstBlock		      "Goto24"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher7"
+	      SrcPort		      2
+	      DstBlock		      "Goto25"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher7"
+	      SrcPort		      3
+	      DstBlock		      "Goto26"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher7"
+	      SrcPort		      4
+	      DstBlock		      "Goto27"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher8"
+	      SrcPort		      1
+	      DstBlock		      "Goto28"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher8"
+	      SrcPort		      2
+	      DstBlock		      "Goto29"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher8"
+	      SrcPort		      3
+	      DstBlock		      "Goto3"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher8"
+	      SrcPort		      4
+	      DstBlock		      "Goto30"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher9"
+	      SrcPort		      1
+	      DstBlock		      "Goto31"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher9"
+	      SrcPort		      2
+	      DstBlock		      "Goto32"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher9"
+	      SrcPort		      3
+	      DstBlock		      "Goto4"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher9"
+	      SrcPort		      4
+	      DstBlock		      "Goto5"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher10"
+	      SrcPort		      1
+	      DstBlock		      "Goto6"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher10"
+	      SrcPort		      2
+	      DstBlock		      "Goto7"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher10"
+	      SrcPort		      3
+	      DstBlock		      "Goto8"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "BitBasher10"
+	      SrcPort		      4
+	      DstBlock		      "Goto9"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "From17"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      1
+	    }
+	    Line {
+	      SrcBlock		      "From31"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      2
+	    }
+	    Line {
+	      SrcBlock		      "From18"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      3
+	    }
+	    Line {
+	      SrcBlock		      "From32"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      4
+	    }
+	    Line {
+	      SrcBlock		      "From19"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      5
+	    }
+	    Line {
+	      SrcBlock		      "From4"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      6
+	    }
+	    Line {
+	      SrcBlock		      "From2"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      7
+	    }
+	    Line {
+	      SrcBlock		      "From5"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      8
+	    }
+	    Line {
+	      SrcBlock		      "From20"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      9
+	    }
+	    Line {
+	      SrcBlock		      "From6"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      10
+	    }
+	    Line {
+	      SrcBlock		      "From21"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      11
+	    }
+	    Line {
+	      SrcBlock		      "From7"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      12
+	    }
+	    Line {
+	      SrcBlock		      "From22"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      13
+	    }
+	    Line {
+	      SrcBlock		      "From8"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      14
+	    }
+	    Line {
+	      SrcBlock		      "From23"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      15
+	    }
+	    Line {
+	      SrcBlock		      "From9"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      16
+	    }
+	    Line {
+	      SrcBlock		      "From1"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      17
+	    }
+	    Line {
+	      SrcBlock		      "From24"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      18
+	    }
+	    Line {
+	      SrcBlock		      "From10"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      19
+	    }
+	    Line {
+	      SrcBlock		      "From25"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      20
+	    }
+	    Line {
+	      SrcBlock		      "From11"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      21
+	    }
+	    Line {
+	      SrcBlock		      "From26"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      22
+	    }
+	    Line {
+	      SrcBlock		      "From12"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      23
+	    }
+	    Line {
+	      SrcBlock		      "From27"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      24
+	    }
+	    Line {
+	      SrcBlock		      "From13"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      25
+	    }
+	    Line {
+	      SrcBlock		      "From28"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      26
+	    }
+	    Line {
+	      SrcBlock		      "From14"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      27
+	    }
+	    Line {
+	      SrcBlock		      "From29"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      28
+	    }
+	    Line {
+	      SrcBlock		      "From15"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      29
+	    }
+	    Line {
+	      SrcBlock		      "From3"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      30
+	    }
+	    Line {
+	      SrcBlock		      "From16"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      31
+	    }
+	    Line {
+	      SrcBlock		      "From30"
+	      SrcPort		      1
+	      DstBlock		      "Concat"
+	      DstPort		      32
+	    }
+	    Line {
+	      SrcBlock		      "Concat"
 	      SrcPort		      1
 	      DstBlock		      "out"
 	      DstPort		      1
@@ -1985,7 +3412,7 @@ Model {
       }
       System {
 	Name			"output_controller"
-	Location		[155, 77, 736, 531]
+	Location		[150, 53, 731, 507]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
