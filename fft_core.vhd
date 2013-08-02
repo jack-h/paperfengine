@@ -17,3 +17,8 @@ entity fft_core is
     sync_out: out std_logic
   );
 end fft_core;
+
+architecture structural of fft_core is
+begin
+end structural;
+

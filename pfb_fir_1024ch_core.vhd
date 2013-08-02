@@ -13,3 +13,8 @@ entity pfb_fir_1024ch_core is
     sync_out: out std_logic
   );
 end pfb_fir_1024ch_core;
+
+architecture structural of pfb_fir_1024ch_core is
+begin
+end structural;
+

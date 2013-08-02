@@ -13,3 +13,8 @@ entity pfb_fir_core is
     sync_out: out std_logic
   );
 end pfb_fir_core;
+
+architecture structural of pfb_fir_core is
+begin
+end structural;
+

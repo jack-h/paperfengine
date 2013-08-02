@@ -17,3 +17,8 @@ entity fft_1024ch_core is
     sync_out: out std_logic
   );
 end fft_1024ch_core;
+
+architecture structural of fft_1024ch_core is
+begin
+end structural;
+
