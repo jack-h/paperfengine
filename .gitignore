@@ -1,5 +1,9 @@
 *.log
+*.mdl.r2010a
+slprj
 fft_1024ch_core/*
 !fft_1024ch_core/fft_1024ch_core.ngc
+roach2_fengine/*
+!roach2_fengine/bit_files/*.bof.gz
 transpose_core/*
 !transpose_core/transpose_core.ngc
