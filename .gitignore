@@ -1,9 +1,19 @@
+# Ignore Simulink byproducts
 *.log
 *.mdl.r2010a
 slprj
+
+# Ignore everything in fft_1024ch_core except for the fft_1024ch_core.ngc file.
 fft_1024ch_core/*
 !fft_1024ch_core/fft_1024ch_core.ngc
+
+# Ignore everything in roach2_fengine, then unignore roach2_fengine/bit_files,
+# so we can ignore everthing in there except for *.bof.gz files.
 roach2_fengine/*
+!roach2_fengine/bit_files
+roach2_fengine/bit_files/*
 !roach2_fengine/bit_files/*.bof.gz
+
+# Ignore everything in transpose_core except for the transpose_core.ngc file.
 transpose_core/*
 !transpose_core/transpose_core.ngc
