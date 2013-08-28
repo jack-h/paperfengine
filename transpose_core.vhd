@@ -7,6 +7,7 @@ entity transpose_core is
     clk_1: in std_logic; 
     din: in std_logic_vector(127 downto 0); 
     fid: in std_logic_vector(2 downto 0); 
+    mode: in std_logic_vector(1 downto 0); 
     sync: in std_logic; 
     tid: in std_logic_vector(1 downto 0); 
     dest: out std_logic_vector(7 downto 0); 

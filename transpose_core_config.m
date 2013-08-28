@@ -20,6 +20,7 @@ function transpose_core_config(this_block)
   this_block.addSimulinkInport('din');
   this_block.addSimulinkInport('fid');
   this_block.addSimulinkInport('tid');
+  this_block.addSimulinkInport('mode');
 
   this_block.addSimulinkOutport('dout');
   this_block.addSimulinkOutport('valid');
@@ -57,6 +58,10 @@ function transpose_core_config(this_block)
 
     if (this_block.port('tid').width ~= 2);
       this_block.setError('Input data type for port "tid" must have width=2.');
+    end
+
+    if (this_block.port('mode').width ~= 2);
+      this_block.setError('Input data type for port "mode" must have width=2.');
     end
 
   end  % if(inputTypesKnown)
