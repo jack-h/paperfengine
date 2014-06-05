@@ -7,6 +7,10 @@ slprj
 fft_1024ch_core/*
 !fft_1024ch_core/fft_1024ch_core.ngc
 
+# Ignore everything in pfb_fir_1024ch_core except for the pfb_fir_1024ch_core.ngc file.
+pfb_fir_1024ch_core/*
+!pfb_fir_1024ch_core/pfb_fir_1024ch_core.ngc
+
 # Ignore everything in roach2_fengine, then unignore roach2_fengine/bit_files,
 # so we can ignore everthing in there except for *.bof.gz files.
 roach2_fengine/*
